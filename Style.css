@@ -86,3 +86,6 @@ footer{
     color: white;
     transition: all 1s; 
 }
+.pied a:hover{
+    text-decoration: underline;
+}
