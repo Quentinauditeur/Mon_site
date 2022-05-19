@@ -1,8 +1,5 @@
 .Global{
     width: 80%;
-}
-body{
-    width: 80%;
     margin: auto;
 }
 #banniere{
@@ -138,8 +135,7 @@ body{
 #Formulaire{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;
 }
 .CaseFormulaire{
     display: flex;
@@ -149,6 +145,11 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5px;
+}
+.form-merci{
+    margin: 10px auto 10px auto;
+    text-align: center;
+    width: 80%;
 }
 table{
     border: 1px dashed black;
