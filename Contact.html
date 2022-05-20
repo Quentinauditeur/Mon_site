@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact</title>
-        <link rel="stylesheet" href="Style.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div class="Global">
-        <header>
-            <div id="banniere"></div>
-        </header>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="Global">
+      <header>
+        <div id="banniere"></div>
+      </header>
         <nav class="test">
-            <ul>
-              <li class="menu-deroulant">
-                <a href="index.html">Accueil</a>
-                <ul class="sous-menu">
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-              </li>
-              <li class="menu-deroulant">
-                <a href="presentation_CV.html">Présentation</a>
-                <ul class="sous-menu">
-                  <li><a href="#">CV</a></li>
-                  <li><a href="#">Lettre de Motivation</a></li>
-                </ul>
-              </li>
-              <li><a href="A_propos.html">A propos</a></li>
-              <li><a href="Contact.html">Contact</a></li>
-            </ul>
+          <ul>
+            <li class="menu-deroulant">
+              <a href="index.html">Accueil</a>
+              <ul class="sous-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
+            </li>
+            <li class="menu-deroulant">
+              <a href="presentation_CV.html">Présentation</a>
+              <ul class="sous-menu">
+                <li><a href="#">Qui suis-je</a></li>
+                <li><a href="Formation.html">Formation</a></li>
+              </ul>
+            </li>
+            <li><a href="A_propos.html">A propos</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
         </nav>
-        <div id="Formulaire">  <!--Formulaire-->
-            <form method="post" action="Traitement.php"> <!--Lien page PHP-->
-                <p>
-                    <label>Votre Nom :</label> <input type="text" name="Nom" class="CaseFormulaire" placeholder="Ex : Dupont" size="30" maxlength="20" required><br>                   
-                    <label>Votre Prénom :</label> <input type="text" name="Prenom" class="CaseFormulaire" placeholder="Ex : Pierre" size="30" maxlength="20" required><br>                    
-                    <labe>Votre Email :</labe> <input type="email" name="Email" class="CaseFormulaire" placeholder="Ex : prenom.nom@gmail.com" size="30" maxlength="40" required><br>
-                    <label>Votre téléphone :</label> <input type="tel" name="Téléphone" class="CaseFormulaire" placeholder="Ex : 0601010101" size="30" maxlength="10" required><br>           
-                    <label for="ameliorer">Texte :</label><br>
-                    <textarea name="ameliorer" id="ameliorer" rows="15" maxlength="250" cols="70" placeholder="Ex : 250 Caractères Max"></textarea>
-                    <input type="submit" value="Envoyer" id="BoutonEnvoyer">
-                </p>
-            </form>
-        </div>
-        <footer>
-            <div class="pied">
-                <a href="https://cnam-auvergnerhonealpes.com/diplome-detablissement-bac-1-integrateur-web-junior-die6000a/" target="_blank">Formation Intégrateur Web junior</a>
-                <p class="ppied">Mes réseaux</p>
-                <a href="https://www.cnam.fr/" target="_blank">Site Officiel du Cnam</a>
-            </div>
-        </footer>
-        </div>
-        <script src="app.js"></script>
-    </body>
+      <div id="Formulaire">  <!--Formulaire-->
+        <form method="post" action="Traitement.php"> <!--Lien page PHP-->
+          <p>
+            <label>Votre Nom :</label> <input type="text" name="Nom" class="CaseFormulaire" placeholder="Ex : Dupont" size="30" maxlength="20" required><br>                   
+            <label>Votre Prénom :</label> <input type="text" name="Prenom" class="CaseFormulaire" placeholder="Ex : Pierre" size="30" maxlength="20" required><br>                    
+            <labe>Votre Email :</labe> <input type="email" name="Email" class="CaseFormulaire" placeholder="Ex : prenom.nom@gmail.com" size="30" maxlength="40" required><br>
+            <label>Votre téléphone :</label> <input type="tel" name="Téléphone" class="CaseFormulaire" placeholder="Ex : 0601010101" size="30" maxlength="10" required><br>           
+            <label for="ameliorer">Texte :</label><br>
+            <textarea name="ameliorer" id="ameliorer" rows="15" maxlength="250" cols="70" placeholder="Ex : 250 Caractères Max"></textarea>
+            <input type="submit" value="Envoyer" id="BoutonEnvoyer">
+          </p>
+        </form>
+      </div>
+    <footer>
+      <div class="pied">
+        <a href="https://cnam-auvergnerhonealpes.com/diplome-detablissement-bac-1-integrateur-web-junior-die6000a/" target="_blank">Formation Intégrateur Web junior</a>
+        <p class="ppied">Mes réseaux</p>
+        <a href="https://www.cnam.fr/" target="_blank">Site Officiel du Cnam</a>
+      </div>
+    </footer>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
 </html>

@@ -3,11 +3,12 @@
     margin: auto;
 }
 #banniere{
-    background-image: url("HtmlCss.jpg");
+    background-image: url("pexels-adrien-olichon-2387819.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     height: 110px;
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 /*Menu*/
@@ -108,6 +109,24 @@
       border-top: 3px solid red;
       box-shadow: 0px 3px 3px 1px black;
     }
+}
+#Leslogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+}
+.LogoLangage{
+    padding: 20px 0px 20px 0px;
+}
+#lienpageformation{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0px 0px 0px;
+}
+#lienpageformation:hover{
+    color: red;
 }
 .retraitPuces{
     margin-left: 40px;
